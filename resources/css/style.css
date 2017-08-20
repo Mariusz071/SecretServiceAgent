@@ -2,7 +2,7 @@ html{
   font-size:18px;
 }
 
-body{
+body, a{
   font-family:Helvetica;
   color:white;
 }
@@ -39,4 +39,51 @@ body{
   display:flex;
   align-items:center;
   min-height:1.5rem;
+}
+
+/*Moto - backgrounded section*/
+.moto{
+  height:25rem;
+  background-image:url('../images/background.jpeg');
+  background-size:cover;
+  background-position: 0 60%;
+}
+
+.arrival{
+  background-color:black;
+  margin-top:9rem;
+  width:25rem;
+  text-transform: uppercase;
+}
+
+#new /*1st paragraph within .arrival*/{
+  padding:2rem 0 0.25rem 3rem;
+  font-size:1rem;
+  font-weight:bold;
+}
+
+#bikes /*2nd paragraph within .arrival*/{
+  font-size:2rem;
+  font-weight:bold;
+  padding:0 0 2rem 3rem;
+}
+
+/*Navbar section*/
+.navbar{
+  background-color:firebrick;
+  padding:0.75rem 0;
+}
+
+.navbar ul{
+  width:100%;
+  display:inline-flex;
+  justify-content: space-between;
+}
+
+.navbar li{
+  display:inline-block;
+}
+
+.navbar a{
+  text-decoration: none;
 }
